@@ -4,8 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mobile.css" />
     <title>Star Wars Maquette sisi</title>
   </head>
 
-  <body></body>
+  <body>
+    <h1>Star Wars</h1>
+    <div class="img_combat">
+      <img
+        class="image"
+        src="https://cdn.discordapp.com/attachments/1060197860152447096/1060221007320850512/star_wars.png"
+      />
+    </div>
+    <div>
+      <p class="text_user">Username</p>
+      <img
+        class="username"
+        src="https://cdn.discordapp.com/attachments/1060197860152447096/1060216646502993920/username.png"
+      />
+    </div>
+    <form class="starwars_form">
+      <fieldset>
+        <h2>User information</h2>
+        <div class="text_space_img">
+          <div>
+            <label for="first_name">Firstname</label>
+            <input
+              placeholder="Firstname"
+              id="first_name"
+              name="first_name"
+              type="text"
+              required
+            />
+          </div>
+          <img class="pencil" src="./Image/stylo.png" />
+        </div>
+        <div class="text_space_img">
+          <div>
+            <label for="last_name">Lastname</label>
+            <input id="last_name" name="last_name" type="text" required />
+          </div>
+          <img class="pencil" src="./Image/stylo.png" />
+        </div>
+        <div class="text_space_img">
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <img class="pencil" src="./Image/stylo.png" />
+        </div>
+        <div class="text_space_img">
+          <div>
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" required />
+          </div>
+          <img class="pencil" src="./Image/stylo.png" />
+        </div>
+        <div class="text_space_img">
+          <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required />
+          </div>
+          <img class="pencil" src="./Image/stylo.png" />
+        </div>
+      </fieldset>
+    </form>
+    <nav class="menu">
+      <ul class="menu_nav">
+        <li class="menu_nav_list">
+          <img
+            class="menu_nav_list_image"
+            src="./Image/accueil.png"
+            alt="icône de la home page"
+          />
+          Home
+        </li>
+        <li class="menu_nav_list">
+          <img class="menu_nav_list_image" src="./Image/canadien.png" />
+          Characters
+        </li>
+        <li class="menu_nav_list">
+          <img class="menu_nav_list_image" src="./Image/utilisateur.png" />
+          Profil
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>

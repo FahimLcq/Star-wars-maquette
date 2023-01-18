@@ -1,0 +1,114 @@
+body {
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/1060197860152447096/1060203980522795049/depositphotos_70226169-stock-photo-dark-starry-sky-background.jpg);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  padding: 20px 50px 20px 10px;
+}
+
+.menu {
+  background-color: blue;
+}
+
+.menu_nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.menu_nav_list {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 0;
+  color: black;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_nav_list_image {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+.starwars_form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+fieldset {
+  background-color: black;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  margin-top: 60px;
+}
+
+h2 {
+  padding: 20px 50px 20px 10px;
+}
+
+label {
+  display: block;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+input {
+  background-color: black;
+  border-color: #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffffff;
+  padding: 6px;
+  margin-top: 8px;
+}
+
+.pencil {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+}
+
+.text_space_img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.username {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  bottom: 60%;
+  left: 40%;
+}
+
+.text_user {
+  position: absolute;
+  bottom: 70%;
+  left: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+}

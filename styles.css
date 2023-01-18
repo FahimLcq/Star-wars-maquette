@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-image: url(https://cdn.discordapp.com/attachments/1060197860152447096/1060203980522795049/depositphotos_70226169-stock-photo-dark-starry-sky-background.jpg);
+}
+
+#image {
+  margin: 0 auto;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+  display: block;
+  position: relative;
+}
+
+.text-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 30px;
+}
+
+#username {
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 150px;
+  display: block;
+}
+
+.bold {
+  font-weight: 800px;
+}
+
+.divider {
+  border-bottom: 2px solid #fff;
+}
+
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.crayon {
+  max-width: 100%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: inline-block;
+}
